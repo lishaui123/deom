@@ -1,0 +1,875 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+ol li{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+}
+input,img{
+    border: none;
+    outline: 0;
+}
+input{
+    outline: 0;
+}
+.w1200{
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+    height: 0;
+    width: 0;
+    font-size: 0;
+}
+.header{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #dddddd;
+    background: #f2f2f2;
+}
+.header ul {
+   float: right;
+}
+.header ul li{
+    float: left;
+    margin: 0 15px 0 0;
+}
+.header ul li a {
+    color: #666;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.header ul li  span{
+    padding-right: 2px;
+    display: inline-block;
+    background: url("../img/1.png") no-repeat center;
+    vertical-align: middle;
+}
+.header ul li a .span1{
+    width: 19px;
+    height: 15px;
+     background-position: 0 -220px ;
+}
+.header ul li a .span2{
+   width: 17px;
+    height: 15px;
+    background-position: 0 -113px;
+}
+.header ul li a .span3{
+    width: 19px;
+    height: 19px;
+    background-position: 0 -257px;
+}
+.header ul.po1{
+    position: relative;
+}
+.header ul li p{
+    right: 260px;
+    top: 31px;
+    position: absolute;
+    width: 200px;
+    height: 53px;
+    background: #f2f2f2;;
+    border: 1px solid #cccccc;
+    border-top: none;
+    line-height: 53px;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+    color: #666666;
+    -webkit-user-select: none;
+}
+.header ul li.po1:hover p{
+  display: block;
+}
+
+.header ul li .span4{
+    width: 8px;
+    height: 5px;
+   background-position: 0 -31px;
+  padding-bottom: 3px;
+}
+.header ul .List5{
+    position: relative;
+}
+.header ul .List5 span{
+    position: absolute;
+    left: -26px;
+    top: 31px;
+    width: 100px;
+    height: 89px;
+    background: #f2f2f2;
+    border: 1px solid #cccccc;
+    border-top: white;
+    border-radius: 5px;
+    display: none;
+    -webkit-user-select: none;
+    z-index: 10;
+}
+.header ul .List5 span div{
+    float: left;
+    font-size: 14px;
+    color: #666666;
+   text-align: center;
+    width: 102px;
+    border-radius: 3px;
+}
+.header ul .List5 span div:hover{
+    background: #cccccc;
+}
+.header ul .List5:hover span{
+    display: block;
+}
+.header ul .List6{
+    position: relative;
+}
+.header ul .List6 .div1{
+   position: absolute;
+    width: 92px;
+    height: 124px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    top: 31px;
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+    display: none;
+    border-top: white;
+    -webkit-user-select: none;
+    z-index: 10;
+}
+.header ul .List6 .div1 div:hover{
+    background: #cccccc;
+}
+.header ul .List6:hover .div1{
+    display: block;
+}
+/*header end*/
+.nav .w1200{
+    position: relative;
+}
+.nav .logo{
+   width: 250px;
+    height: 60px;
+    background: url("../img/2.png") no-repeat center;
+    margin-top: 37px;
+    margin-bottom: 20px;
+    float: left;
+}
+.nav .two{
+    position: relative;
+    width: 502px;
+    height: 59px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    float: left;
+
+}
+.nav .two .two1{
+    border: 1px solid #000000;
+    width: 500px;
+    height: 33px;
+}
+.nav .two .two2{
+    width: 58px;
+    height: 33px;
+    float: left;
+    color: #666666;
+    padding-left: 12px;
+    position: relative;
+
+}
+.nav .two .two2 span{
+    position: absolute;
+    width: 7px;
+    height: 4px;
+    left: 62px;
+    top: 12px;
+    background: url("../img/1.png") no-repeat;
+    background-position: 0 -32px;
+}
+.nav .two .input1{
+    height: 21px;
+    line-height: 20px;
+    padding: 6px 10px 6px 6px;
+    width: 344px;
+    border: none;
+    color: #999;
+    font-size: 12px;
+    float: left;
+    outline: 0;
+
+}
+.nav .two .input2{
+    width: 70px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    background: #000;
+    color: white;
+    float: left;
+    border: none;
+}
+.nav .erWei{
+    position: relative;
+    width: 251px;
+    height: 144px;
+    background: url("../img/3.gif") no-repeat center;
+    float: right;
+}
+.nav .erWei p{
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    top: 56px;
+    left: 106px;
+    background: url("../img/6.png") no-repeat center;
+}
+.nav ul{
+    position: absolute;
+    left: 0;
+    top: 108px;
+    width: 432.09px;
+    height: 36px;
+}
+.nav ul li a{
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    height: 36px;
+    line-height: 36px;
+
+}
+.nav ul .List1{
+   color: #ffffff;
+    border-radius: 5px 5px 0 0;
+    margin-right: 30px;
+    background-color: #f46;
+    width: 225px;
+    text-align: center;
+}
+.nav ul .List2{
+    padding: 0 15px 0 15px;
+}
+ /*nav end*/
+.content{
+    border-top: 1px solid #ff4466;
+}
+.w1200{
+    position: relative;
+}
+.content .conL{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #ff4466;
+    border-top: none;
+    border-right: none;
+    z-index: 11;
+}
+.content .conL ul li {
+    position: relative;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #ff4466;
+}
+.content .conL ul li div{
+     width: 203px;
+    font-size: 12px;
+    border-bottom: 1px dashed #cccccc;
+}
+.content .conL ul .one{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+}
+.content .conL ul .one:after{
+    display: none;
+}
+.content .conL ul .one:hover{
+    border-bottom: 1px solid #000000;
+}
+.content .conL ul .List1{
+    border-top: none;
+}
+.content .conL ul .List14{
+    border-bottom: none;
+}
+.content .conL ul .red{
+    color: #ff4466;
+}
+.content .conL ul .red:hover{
+    border-bottom: 1px solid #ff4466;
+}
+.content .conL ul li a{
+    color: #666666;
+    position: relative;
+    margin-right: 10px;
+}
+.content .conL ul li a:hover{
+    border-bottom: 1px solid #666666;
+}
+.content .conL ul li a:after{
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    content: "";
+    top: 1px;
+    right: -5px;
+    background-color: #b0b0b0;
+}
+.content .conL ul li:hover{
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-right: #ffffff;
+}
+.content .conL ul li:hover div{
+    border-bottom: none;
+}
+.content .conL ul li span{
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 224px;
+    display: block;
+    width: 270px;
+    padding: 0 10px 0 10px;
+    height: 533px;
+    border: 1px solid #cccccc;
+    border-left: none;
+}
+.content .conL ul li span a:after{
+    display: none;
+}
+.content .conL ul li span a{
+   font-size: 12px;
+}
+.content .conL ul li span p{
+    margin-top: 18px;
+}
+.content .conL ul li span img{
+    width: 250px;
+    height: 200px;
+}
+.content .conL ul li span{
+    display: none;
+    position: absolute;
+}
+.content .conL ul li.Li1:hover .span1{
+    display: block;
+}
+.content .conL ul li.Li2 .span2{
+    top: -39px;
+}
+.content .conL ul li.Li2:hover .span2{
+    display: block;
+}
+.content .conL ul li.Li3 .span3{
+    top: -78px;
+}
+.content .conL ul li.Li3:hover .span3{
+    display: block;
+}
+.content .conL ul li.Li4 .span4{
+    top: -116px;
+}
+.content .conL ul li.Li4:hover .span4{
+    display: block;
+}
+.content .conL ul li.Li5 .span5{
+    top: -154px;
+}
+.content .conL ul li.Li5:hover .span5{
+    display: block;
+}
+.content .conL ul li.Li6 .span6{
+    top: -192px;
+}
+.content .conL ul li.Li6:hover .span6{
+    display: block;
+}
+.content .conL ul li.Li7 .span7{
+    top: -230px;
+}
+.content .conL ul li.Li7:hover .span7{
+    display: block;
+}
+.content .conL ul li.Li8 .span8{
+    top: -268px;
+}
+.content .conL ul li.Li8:hover .span8{
+    display: block;
+}
+.content .conL ul li.Li9 .span9{
+    top: -306px;
+}
+.content .conL ul li.Li9:hover .span9{
+    display: block;
+}
+.content .conL ul li.Li10 .span10{
+    top: -344px;
+}
+.content .conL ul li.Li10:hover .span10{
+    display: block;
+}
+.content .conL ul li.Li11 .span11{
+    top: -382px;
+}
+.content .conL ul li.Li11:hover .span11{
+    display: block;
+}
+.content .conL ul li.Li12 .span12{
+    top: -420px;
+}
+.content .conL ul li.Li12:hover .span12{
+    display: block;
+}
+.content .conL ul li.Li13 .span13{
+    top: -458px;
+}
+.content .conL ul li.Li13:hover .span13{
+    display: block;
+}
+.content .conL ul li.Li14 .span14{
+    top: -496px;
+}
+.content .conL ul li.Li14:hover .span14{
+    display: block;
+}
+.content #conOut{
+    position: absolute;
+    top: 2px;
+    left: 228px;
+    width: 713px;
+    height: 510px;
+    margin: 20px 20px 0 20px;
+    overflow: hidden;
+
+}
+.content #conOut .banner{
+    height: 510px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content #conOut .banner div{
+    width: 713px;
+    height: 510px;
+    float: left;
+}
+.content #conOut #banner img{
+    width: 100%;
+    height: 100%;
+}
+.content #conOut ul{
+    position: absolute;
+    left: 50%;
+    margin-left: -76px;
+    bottom: 20px;
+    border: 1px solid #cccccc;
+    width: 153px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    box-shadow: 0 1px 4px #cccccc;
+    z-index: 10;
+
+}
+.content #conOut ul li{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #cccccc;
+    margin-top: 7px;
+    float: left;
+    margin-left: 11px;
+}
+.content #conOut ul li.bg{
+    background: lightgreen;
+}
+.content #conOut a{
+    width: 30px;
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    margin-top: -22.5px;
+    background-image: url("../img/banner.png");
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    display: none;
+}
+.content #conOut .right{
+    right: 0;
+    background-position: -50px 0;
+}
+.content #conOut:hover a{
+    display: block;
+}
+.content #conOut a:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.content .conR{
+    width: 220px;
+    height: 510px;
+    border: 1px solid #cccccc;
+    float: right;
+    margin-top: 21px;
+}
+.content .conR p{
+    width: 180px;
+    height: 220px;
+    margin: 15px 20px 15px 20px;
+}
+.content .conR p img{
+    width: 180px;
+    height: 220px;
+}
+.content .conR div{
+    width: 180px;
+    height: 10px;
+    margin-left: 20px;
+    border-bottom: 1px dashed #cccccc;
+}
+/*banner end*/
+.xia .xia1{
+    width: 100%;
+    border-top: 1px solid #000000;
+    margin-top: 80px;
+    height: 300px;
+}
+.xia .xia1 .page1{
+    width: 222px;
+    height: 295px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 5px solid red;
+    float: left;
+}
+.xia .xia1 .page1 img{
+    width: 222px;
+    height: 245px;
+    margin-top: 30px;
+}
+.xia .xia1 .page2{
+    width: 557px;
+    height: 300px;
+    margin-left: 20px;
+    float: left;
+}
+.xia .xia1 .page2 .img1{
+    width: 335px;
+    height: 100%;
+    float: left;
+}
+.xia .xia1 .page2 .img2{
+    width: 222px;
+    height: 100%;
+    float: left;
+}
+.xia .xia1 .page3{
+    width: 360px;
+    float: right;
+}
+.xia .xia1 .page2 img{
+    display: block;
+    width: 100%;
+    height: 145px;
+}
+.xia .xia1 .page3 .img2{
+    margin-top: 8px;
+}
+.tiao{
+    margin: 75px 0 10px 0;
+}
+.tiao.w1200 div{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+}
+.xia2 .xi{
+    height: 498px;
+}
+.xia2 .xi .div1{
+    float: left;
+    text-align: center;
+    width: 222px;
+    height: 100%;
+    border: 1px solid #cccccc;
+}
+.xia2 .xi .div1 img{
+    margin-top: 20px;
+}
+.xia2 .xi .div1 div{
+    margin-top: 20px;
+}
+.xia2 .xi .div1 div a{
+    margin-left: 10px;
+    line-height: 30px;
+    font-size: 12px;
+    color: rgb(51,51,51);
+    display: block;
+    float: left;
+    padding: 0 4px;
+}
+.xia2 .xi .div1 div a:hover{
+    cursor: pointer;
+    line-height: 28px;
+    border: 1px solid #cccccc;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.xia2 .xi .div2{
+    width: 975px;
+    height: 331px;
+    float: left;
+
+}
+.xia2 .xi .div2 div{
+    width: 306px;
+    height: 331px;
+    float: left;
+    margin-left: 18px;
+}
+.xia2 .xi .div2 div img{
+    display: block;
+    width: 306px;
+    height: 331px;
+}
+.xia2 .xi .div3{
+    width: 975px;
+    height: 154px;
+    float: right;
+    margin-top: 20px;
+}
+.xia2 .xi .div3 div{
+    width: 306px;
+    height: 100%;
+    float: left;
+    margin-left: 18px;
+
+}
+.xia2 .xi .div3 div img{
+    width: 130px;
+    height: 150px;
+    float: left;
+}
+.xia2 .xi .div3 div span{
+   width: 155px;
+    height: 150px;
+    margin: 40px 0;
+    float: left;
+}
+.xia2 .xi .div3 div span a{
+    display: block;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+}
+.xia2 .xi .div3 div span .a1{
+    color: #000000;
+}
+.xia2 .xi .div3 div span .a2{
+    color: #999999;
+}
+/*end*/
+.xia3 .xi{
+    height: 500px;
+    width: 100%;
+}
+.xia3 .xi div{
+   float: left;
+}
+.xia3 .xi .div1{
+    height: 498px;
+    width: 222px;
+    border: 1px solid #cccccc;
+}
+.xia3 .xi .div2{
+    height: 500px;
+    width: 305px;
+    margin-left: 20px;
+}
+.xia3 .xi .div2 img{
+    width: 100%;
+    height: 100%;
+}
+.xia3 .xi .div3{
+    width: 645px;
+    height: 500px;
+    border: 1px solid #cccccc;
+}
+.xia3 .xi .div1 .p1{
+    width: 224px;
+    height: 254px;
+}
+.xia3 .xi .div1 .p1 img{
+    width: 182px;
+    height: 213px;
+    display: block;
+    margin: 20px;
+}
+.xia3 .xi .div1 .p2{
+    width: 224px;
+    height: 243px;
+}
+.xia3 .xi .div1 div div{
+    width: 110px;
+    height: 55px;
+    float: left;
+    border-top: 1px solid #cccccc;
+
+}
+.xia3 .xi .div1 div div img{
+   width: 90px;
+    padding-left: 10px;
+}
+.xia3 .xi .div1 div .p{
+    border-right: 1px solid #cccccc;
+}
+.xia3 .xi .div3{
+    width: 649px;
+    height: 498px;
+    float: left;
+    border: 1px solid #cccccc;
+}
+.xia3 .xi .div3{
+    border-right: none;
+}
+.xia3 .xi .div3 div {
+    width: 202px;
+    height: 247px;
+    padding-left: 13px;
+    border-right: 1px solid #cccccc;
+}
+.xia3 .xi .div3 img{
+    width: 155px;
+    height: 150px;
+    display: block;
+    float: left;
+    padding: 10px;
+}
+.xia3 .xi .div3 p{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.xia3 .xi .div3 p a{
+    color: #666666;
+    font-size: 12px;
+}
+.xia3 .xi .div3 .aa{
+    border-top: 1px solid #cccccc;
+}
+.wei{
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    font-size: 14px;
+}
+.wei .w1200 .you{
+    width: 245px;
+}
+.wei .w1200 .you p a{
+    height: 24px;
+    line-height: 24px;
+    color: #999999;
+}
+.wei .w1200 .you .tu{
+    margin-top: 10px;
+    width: 125px;
+    height: 30px;
+}
+.wei .w1200 .you,.wei .w1200 .zhong,.wei .w1200 .zuo{
+    float: left;
+}
+.wei .w1200 .you .tu img{
+    width: 100%;
+    height: 100%;
+}
+.wei .w1200 .zhong{
+    width: 473px;
+    margin-left: 33px;
+    margin-top: 30px;
+}
+.wei .w1200 .zhong ul{
+
+   display: inline-block;
+    width: 37px;
+    padding: 0 0 60px 60px;
+    vertical-align: top;
+}
+.wei .w1200 .zhong ul li a{
+    display: block;
+    color: #999999;
+    width: 70px;
+    height: 24px;
+    line-height: 24px;
+}
+.wei .w1200 .zhong ul li .one{
+    font-weight: 800;
+    color: #000000;
+}
+.wei .w1200 .zuo{
+    margin-top: 30px;
+
+}
+.wei .w1200 .zuo .one a{
+    display: block;
+   font-weight: 600;
+    color: #000000;
+    margin-bottom: 10px;
+}
+#fixed{
+    width: 30px;
+    height: 100%;
+    background: #000000;
+    position: fixed;
+    right: 0;
+    top: 0;
+    text-align: center;
+
+}
+#fixed div{
+    height: 88px;
+    border-bottom: 1px solid #999999;
+}
+#fixed .one{
+    margin-top: 80px;
+}
+#fixed a{
+    display: block;
+    color: #ffffff;
+   height: 100%;
+    padding-top: 20px;
+}
+#fixed #Top{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+#fixed #Top a{
+    display: block;
+    width: 100%;
+   height: 100%;
+    position: absolute;
+   text-align: center;
+}
+#fixed a:hover{
+   background: #ff4466;
+}

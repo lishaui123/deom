@@ -1,0 +1,6 @@
+[{"imgSrc":"img/a.jpg","desc":"’‚ «≤‚ ‘Õº∆¨"},
+{"imgSrc":"img/b.jpg","desc":"’‚ «≤‚ ‘Õº∆¨"},
+{"imgSrc":"img/c.jpg","desc":"’‚ «≤‚ ‘Õº∆¨"},
+{"imgSrc":"img/d.jpg","desc":"’‚ «≤‚ ‘Õº∆¨"},
+{"imgSrc":"img/e.jpg","desc":"’‚ «≤‚ ‘Õº∆¨"}
+]
